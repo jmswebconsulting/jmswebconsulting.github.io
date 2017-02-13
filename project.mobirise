@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4000.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x4002.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -967,11 +967,11 @@
           },
           "title2": "Responsive",
           "subtitle2": "All Across Diferent Devices",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "caption2": "No matter what device your customers use: Desktop PC, Tablet or smarthphone, your website will display flawlessly.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4001.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4003.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
