@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x4006.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +971,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4005.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4007.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1120,7 +1120,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Address</strong><br>Lisbon - Portugal<br><br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br>\nPhone:&nbsp;+351 967699281<br>",
+          "text1": "<strong>Address</strong><br>Lisbon - Portugal<br><br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br><br>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
