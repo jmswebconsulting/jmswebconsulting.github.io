@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4002.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x4004.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +971,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4003.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4005.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -999,7 +999,7 @@
           },
           "title4": "Unique Sites",
           "subtitle4": "Exquisite Designs",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "&nbsp; Expert &nbsp;Designers in the most various technologies like: Bootstrap4, HTML5, CSS3,PHP, Adobe Creative Cloud, &nbsp; etc.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
