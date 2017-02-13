@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -672,7 +672,7 @@
             "fourthType": "hidden"
           },
           "title": "",
-          "subtitle": "Pricing table with four columns and solid color background.",
+          "subtitle": "",
           "label1": "HOT!",
           "title1": "Site simples",
           "subtitle1": "a partir de",
@@ -744,7 +744,7 @@
             "showButtons": false
           },
           "title": "JMS Web Consulting",
-          "text": "The success of every websites now depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search engines then you are ahead among your competitors in terms of online sales",
+          "text": "The success of every website now depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search engines then you are ahead among your competitors in terms of online sales",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
         {
@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4002.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x4000.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +971,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4003.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4001.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
