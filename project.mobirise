@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -250,7 +250,7 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "SEO &nbsp;(Search Engine Otptmization)",
+          "title1": "SEO &nbsp;(Search Engine Optimization)",
           "subtitle1": "<br>Criação de Sites Otimizados<br><br><div><br></div>",
           "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Criação de Sites otimizados para indexação em ferramentas de busca como Google, Yahoo, Bing,etc.&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4006.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x40010.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +971,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4007.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40011.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
