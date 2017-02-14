@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x40010.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x40012.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +971,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40011.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40013.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -982,7 +982,7 @@
             }
           },
           "title3": "Creative Design",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "subtitle3": "Elegant and Sophisticated just like You",
           "caption3": "Our designers are experts at creating elegant websites that will capture the essence of your brand.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
