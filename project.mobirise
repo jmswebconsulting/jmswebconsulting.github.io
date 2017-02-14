@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "Acerca  de.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -34,7 +34,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "jmswebconsulting.github.io",
+        "title": "jmswebconsulting",
         "meta_descr": "jmswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less",
         "header_custom": "",
         "footer_custom": "",
@@ -432,8 +432,8 @@
     },
     "Acerca  de.html": {
       "settings": {
-        "title": "Nossa Missao",
-        "meta_descr": ""
+        "title": "jmswebconsulting",
+        "meta_descr": "jmswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less"
       },
       "components": [
         {
@@ -714,8 +714,8 @@
     },
     "page2.html": {
       "settings": {
-        "title": "Web Page Generator Title",
-        "meta_descr": "mswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less"
+        "title": "jmswebconsulting",
+        "meta_descr": "jmswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less"
       },
       "components": [
         {
