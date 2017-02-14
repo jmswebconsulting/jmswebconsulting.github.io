@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "Acerca  de.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -678,7 +678,7 @@
           "subtitle1": "a partir de",
           "currency1": "€",
           "price1": "25",
-          "period1": "/mo.",
+          "period1": "/mês<br>(contracto de 2 Anos 30% off)<br>",
           "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
           "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Página Inicial com letreiro rotativo em destaque.</span></p><p><span style=\"font-size: 14px; line-height: 50px;\"><br></span><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre a Empresa.</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre o Serviço Oferecido.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Galeria de Fotos.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contato (formulário).<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Alojamento incluido.</span><br><span style=\"font-size: 14px; line-height: 50px;\">Registo do Dominio.</span></ul></div><p></p>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contactar</a>",
@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x40012.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x40014.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +971,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40013.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40015.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1070,7 +1070,7 @@
           "subtitle1": "from",
           "currency1": "€",
           "price1": "25",
-          "period1": "/mo.",
+          "period1": "/mo.<br>(2 year contract 30% off)<br>",
           "description1": "JMS Web Consulting ofers this incridible price to all new customers.",
           "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Front Page with Logo and navigation</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Up to 5 pages</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Photo Gallery</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contact Form.<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Hosting included</span><br><span style=\"font-size: 14px; line-height: 50px;\">Domain Registration</span></ul></div><p></p>",
           "button1": "<a data-app-btn=\"true\" href=\"page2.html#contacts4-h\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contact us</a>",
