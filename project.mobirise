@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "Acerca  de.html",
+    "currentPage": "page2.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -23,7 +23,7 @@
     "versionFirst": "3.12",
     "uniqCompNum": 19,
     "versionPublish": "3.11.1",
-    "path": "file:///C:/Users/jmsan/Desktop/JMS%20WEB%20SITE",
+    "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
@@ -34,8 +34,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "jmswebconsulting",
-        "meta_descr": "jmswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less",
+        "title": "",
+        "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -250,7 +250,7 @@
               "linkInNewWindow": false
             }
           },
-          "title1": "SEO &nbsp;(Search Engine Otptmization)",
+          "title1": "SEO &nbsp;(Search Engine Optimization)",
           "subtitle1": "<br>Criação de Sites Otimizados<br><br><div><br></div>",
           "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">Criação de Sites otimizados para indexação em ferramentas de busca como Google, Yahoo, Bing,etc.&nbsp;</span><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -432,8 +432,8 @@
     },
     "Acerca  de.html": {
       "settings": {
-        "title": "jmswebconsulting",
-        "meta_descr": "jmswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less"
+        "title": "Nossa Missao",
+        "meta_descr": "Site Builder Description"
       },
       "components": [
         {
@@ -672,13 +672,13 @@
             "fourthType": "hidden"
           },
           "title": "",
-          "subtitle": "Pricing table with four columns and solid color background.",
+          "subtitle": "",
           "label1": "HOT!",
           "title1": "Site simples",
           "subtitle1": "a partir de",
           "currency1": "€",
           "price1": "25",
-          "period1": "/mo.",
+          "period1": "/mês<br>(contracto de 2 Anos 30% off)<br>",
           "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
           "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Página Inicial com letreiro rotativo em destaque.</span></p><p><span style=\"font-size: 14px; line-height: 50px;\"><br></span><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre a Empresa.</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre o Serviço Oferecido.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Galeria de Fotos.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contato (formulário).<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Alojamento incluido.</span><br><span style=\"font-size: 14px; line-height: 50px;\">Registo do Dominio.</span></ul></div><p></p>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contactar</a>",
@@ -714,8 +714,8 @@
     },
     "page2.html": {
       "settings": {
-        "title": "jmswebconsulting",
-        "meta_descr": "jmswebconsulting\nhttps://jmswebconsulting.github.io\nmelhor website design baixo preço web design quality for less"
+        "title": "Web Page Generator Title",
+        "meta_descr": "Web Page Generator Description"
       },
       "components": [
         {
@@ -744,7 +744,7 @@
             "showButtons": false
           },
           "title": "JMS Web Consulting",
-          "text": "The success of every websites now depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search engines then you are ahead among your competitors in terms of online sales",
+          "text": "The success of every website now depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search engines then you are ahead among your competitors in terms of online sales",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
         {
@@ -955,7 +955,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4008.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x4002.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -967,11 +967,11 @@
           },
           "title2": "Responsive",
           "subtitle2": "All Across Diferent Devices",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "caption2": "No matter what device your customers use: Desktop PC, Tablet or smarthphone, your website will display flawlessly.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4009.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4003.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -982,7 +982,7 @@
             }
           },
           "title3": "Creative Design",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "subtitle3": "Elegant and Sophisticated just like You",
           "caption3": "Our designers are experts at creating elegant websites that will capture the essence of your brand.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -999,7 +999,7 @@
           },
           "title4": "Unique Sites",
           "subtitle4": "Exquisite Designs",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "&nbsp; Expert &nbsp;Designers in the most various technologies like: Bootstrap4, HTML5, CSS3,PHP, Adobe Creative Cloud, &nbsp; etc.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "image": {
@@ -1070,7 +1070,7 @@
           "subtitle1": "from",
           "currency1": "€",
           "price1": "25",
-          "period1": "/mo.",
+          "period1": "/mo.<br>(2 year contract 30% off)<br>",
           "description1": "JMS Web Consulting ofers this incridible price to all new customers.",
           "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Front Page with Logo and navigation</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Up to 5 pages</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Photo Gallery</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contact Form.<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Hosting included</span><br><span style=\"font-size: 14px; line-height: 50px;\">Domain Registration</span></ul></div><p></p>",
           "button1": "<a data-app-btn=\"true\" href=\"page2.html#contacts4-h\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contact us</a>",
@@ -1120,7 +1120,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Address</strong><br>Lisbon - Portugal<br><br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br>\nPhone:&nbsp;+351 967699281<br>",
+          "text1": "<strong>Address</strong><br>Lisbon - Portugal<br><br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br><br>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
