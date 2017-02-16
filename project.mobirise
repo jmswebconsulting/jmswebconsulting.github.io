@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 24,
+    "uniqCompNum": 26,
     "versionPublish": "3.12",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -334,6 +334,33 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-p",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1334.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "tomar portugal",
+              "placeId": "ChIJkQ09Bt57GA0RgDqQ5L3rAAQ",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Address</strong><br>Tomar - Portugal<br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a href=\"index.html\">jmswebconsulting</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><br></ul>"
+        },
+        {
           "_name": "footer1",
           "_styles": {
             "P": {
@@ -342,13 +369,13 @@
           },
           "_anchor": "footer1-2",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
@@ -370,11 +397,11 @@
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
+            "bgColor": "#90a878",
+            "bgColorRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
@@ -424,8 +451,8 @@
           "_name": "social-buttons2",
           "_anchor": "social-buttons2-a",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
@@ -548,13 +575,13 @@
           },
           "_anchor": "footer1-7",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
@@ -758,12 +785,98 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "<p>By providing answers to questions on your Internet Site, sales and inquiries, they can be processed automatically and immediately, whether you have someone in the office or not. Online forms can be used to allow your clients to request quotes or additional information. Save on costs by allowing them to download bids and other important documents.</p><p></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x12048.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "",
+              "authorBio": ""
+            },
+            {
+              "text": "For a small business, a well-built Internet site is an excellent way to induce trust and appear to be greater than it actually is. Currently, your customers assume that you already have a Website. Currently, your most direct competitors probably already have an Internet Site. If so, follow the trend without letting go and arrange ways for your site to be better, presenting its differential.",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x9049.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Jorge S.",
+              "authorBio": "Designer-Developer"
+            },
+            {
+              "text": "<p><span style=\"font-size: 1.125rem; line-height: 2;\">Unlike your office or store that has an opening hours, your Site is accessible 24 hours a day, 365 days a year. Your customers may prefer to inquire about your business, products or services outside of business hours or during the weekends, so having an Internet Site creates more business opportunities</span><br></p><div><br></div>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x9950.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials1-o",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x133353.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "What makes us different",
+          "subtitle": "A capacidade de nos adaptar-mos às necessidades dos nossos clientes"
+        },
+        {
           "_inherit": "header1",
           "_styles": {
             ".mbr-section-title": {
               "color": "#000"
             },
             ".mbr-section-lead": {
+              "color": "#2969b0"
+            },
+            ".mbr-section-lead SPAN": {
               "color": "#2969b0"
             }
           },
@@ -777,7 +890,7 @@
             "bgImageRadio": false,
             "showArrow": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#c1c1c1",
+            "bgColor": "#8f8f8f",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -791,8 +904,8 @@
             "showText": true,
             "showButtons": false
           },
-          "title": "Our Sucess is Your Sucess",
-          "text": "The best advirtising is a Satisfied and Happy Customer.<br>Examples of work you might be interested:<br>Web design<br>Creation of online store with payment by @PayPal<br>E-commerce<br>Seo Optimization<br>",
+          "title": "Our Sucess is Your Sucess<br><br>",
+          "text": "<span style=\"font-style: normal;\">The best advirtising is a Satisfied and Happy Customer.</span><br><span style=\"font-style: normal;\"><br></span><br>Examples of work you might be interested:<br><br><br><b><span style=\"color: rgb(40, 50, 78); font-size: 1.5rem; line-height: 1.5;\">Web design</span><br></b><br><b><span style=\"color: rgb(40, 50, 78); font-size: 1.5rem; line-height: 1.5;\">Creation of online store with payment by @PayPal</span><br></b><br><b><span style=\"color: rgb(40, 50, 78); font-size: 1.5rem; line-height: 1.5;\">E-commerce</span><br></b><br><span style=\"color: rgb(40, 50, 78); font-size: 1.5rem; line-height: 1.5;\"><b>Seo Optimization</b></span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">More Info</a>"
         },
         {
@@ -901,13 +1014,13 @@
           },
           "_anchor": "footer1-d",
           "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
             "bgColor": "#323232",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
@@ -965,7 +1078,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x40010.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x40051.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -981,7 +1094,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40011.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40052.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1056,7 +1169,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#303030",
+            "bgColor": "#7e9b9f",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -1121,11 +1234,11 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
+            "bgImageRadio": true,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
