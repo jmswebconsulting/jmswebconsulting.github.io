@@ -217,7 +217,7 @@
             "showButtons": true
           },
           "title": "Criação de Sites, Logomarcas e muito mais.",
-          "text": "Contacte-nos, temos designs para todos os gostos e planos diversos.",
+          "text": "Contacte-nos, temos designs para todos os gostos e planos diversos.<br>Criação de paginas para web<br>web design<br>Criação de loja on line com pagamento por @PayPal<br>E-commerce <br>Seo Optimization<br>Criação e impressão de materiais gráficos e publicitários<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">Fale connosco</a>"
         },
         {
@@ -764,7 +764,7 @@
               "color": "#000"
             },
             ".mbr-section-lead": {
-              "color": "#9c9a9a"
+              "color": "#2969b0"
             }
           },
           "_tags": [
@@ -792,7 +792,7 @@
             "showButtons": false
           },
           "title": "Our Sucess is Your Sucess",
-          "text": "The best advirtising is a customer satisfaction.",
+          "text": "The best advirtising is a Satisfied and Happy Customer.<br>Examples of work you might be interested:<br>Web design<br>Creation of online store with payment by @PayPal<br>E-commerce<br>Seo Optimization<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">More Info</a>"
         },
         {
@@ -965,7 +965,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4004.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x40010.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -981,7 +981,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4005.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40011.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
