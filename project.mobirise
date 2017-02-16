@@ -17,12 +17,13 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": false,
+        "isRtl": false
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 19,
-    "versionPublish": "3.11.1",
+    "uniqCompNum": 24,
+    "versionPublish": "3.12",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -98,6 +99,15 @@
             },
             ".btn": {
               "font-size": "14px"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
             }
           },
           "_name": "menu",
@@ -201,7 +211,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#000",
-            "contentAlign": "center",
+            "contentAlign": "left",
             "showTitle": true,
             "showText": true,
             "showButtons": true
@@ -343,7 +353,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 jms web consulting"
+          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
         },
         {
           "_tags": [
@@ -549,7 +559,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 jms web consulting"
+          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
         },
         {
           "_tags": [
@@ -902,7 +912,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Copyright (c) 2017 jms web consulting"
+          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
         },
         {
           "_tags": [
@@ -955,7 +965,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x4002.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x4004.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -971,7 +981,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4003.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x4005.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1151,6 +1161,157 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "title": "Web Site Builder Title",
+        "meta_descr": "Web Site Builder Description"
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "14px"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\" target=\"_blank\">English</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-n",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "copyright notice",
+          "text": "<br>1.\t2.\tCopyright notice<br>2.\t2.1\tCopyright (c) 2017 of first publication, JMS Web consulting<br>2.2\tSubject to the express provisions of this notice:<br>(a)\twe, together with our licensors, own and control all the copyright and other intellectual property rights in our website and the material on our website; and<br>(b)\tall the copyright and other intellectual property rights in our website and the material on our website are reserved.<br>3.\tCopyright licence<br>4.\t3.1\tYou may:<br>(a)\tview pages from our website in a web browser;<br>(b)\tdownload pages from our website for caching in a web browser;<br>(c)\tprint pages from our website;<br>(d)\t[stream audio and video files from our website]; and<br>(e)\t[use [our website services] by means of a web browser],<br>5.\tsubject to the other provisions of this notice.<br>6.\t3.2\tExcept as expressly permitted by the other provisions of this notice, you must not download any material from our website or save any such material to your computer.<br>7.\t3.3\tYou may only use our website for [your own personal and business purposes], and you must not use our website for any other purposes.<br>8.\t3.4\tExcept as expressly permitted by this notice, you must not edit or otherwise modify any material on our website.<br>9.\t3.5\tUnless you own or control the relevant rights in the material, you must not:<br>(a)\trepublish material from our website (including republication on another website);<br>(b)\tsell, rent or sub-license material from our website;<br>(c)\tshow any material from our website in public;<br>(d)\texploit material from our website for a commercial purpose; or<br>(e)\tredistribute material from our website, save to the extent expressly permitted by this notice.<br>10.\t4.\tAcceptable use<br>11.\t4.1\tYou must not:<br>(a)\tuse our website in any way or take any action that causes, or may cause, damage to the website or impairment of the performance, availability or accessibility of the website;<br>(b)\tuse our website in any way that is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity;<br>(c)\tuse our website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, Trojan horse, worm, keystroke logger, rootkit or other malicious computer software; or<br>(d)\tconduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction and data harvesting) on or in relation to our website without our express written consent.<br>12.\t5.\tReport abuse<br>13.\t5.1\tIf you learn of any unlawful material or activity on our website, or any material or activity that breaches this notice, please let us know.<br>14.\t5.2\tYou can let us know about any such material or activity [by email or using our abuse reporting form].<br>15.\t6.\tEnforcement of copyright<br>16.\t6.1\tWe take the protection of our copyright very seriously.<br>17.\t6.2\tIf we discover that you have used our copyright materials in contravention of the licence set out in this notice, we may bring legal proceedings against you, seeking monetary damages and/or an injunction to stop you using those materials. You could also be ordered to pay legal costs.<br>18.\t7.\tPermissions<br>19.\t7.1\tYou may request permission to use the copyright materials on our website by [writing to us by email or post, using the contact details published on the website].<br><br><b>Direitos Autorias</b><br><b><br></b>1. Crédito<br>1.1 Este documento foi criado usando um modelo da SEQ Legal (http://www.seqlegal.com).<br>2. Aviso de direitos autorais<br>2.1 Direitos de autor (c) [ano (2017) da primeira publicação] [JMS Web Consulting].<br>2.2 Sob reserva das disposições expressas do presente aviso:<br>(A) nós, juntamente com nossos licenciadores, possuímos e controlamos todos os direitos autorais e outros direitos de propriedade intelectual em nosso site e o material em nosso site; e<br>(B) todos os direitos autorais e outros direitos de propriedade intelectual em nosso site e os materiais em nosso site são reservados.<br>3. Licença de direitos autorais<br>3.1 Você pode:<br>(A) exibir páginas do nosso site em um navegador da Web;<br>(B) download de páginas do nosso site para armazenamento em cache em um navegador web;<br>(C) imprimir páginas do nosso site;<br>(D) [transmitir arquivos de áudio e vídeo de nosso site]; e<br>(E) [utilizar [os nossos serviços do sítio web] através de um navegador web],<br>Sujeito às restantes disposições do presente aviso.<br>3.2 A menos que expressamente permitido pelas outras disposições deste aviso, você não deve baixar qualquer material do nosso site ou salvar qualquer material para o seu computador.<br>3.3 Você só pode usar o nosso site para [seus próprios fins pessoais e comerciais], e você não deve usar o nosso site para quaisquer outros fins.<br>3.4 Exceto quando expressamente permitido por este aviso, você não deve editar ou modificar qualquer material em nosso site.<br>3.5 A menos que você possua ou controle os direitos relevantes no material, você não deve:<br>(A) republicar material de nosso site (incluindo republicação em outro site);<br>(B) vender, alugar ou sub-licenciar material do nosso site;<br>(C) mostrar qualquer material do nosso site em público;<br>(D) explorar material de nosso website para fins comerciais; ou<br>(E) redistribuir material do nosso site, salvo na medida expressamente permitida por este aviso.<br>4. Uso aceitável<br>4.1 Você não pode:<br>(A) usar nosso website de qualquer forma ou tomar qualquer ação que cause, ou possa causar, danos ao site ou prejuízo do desempenho, disponibilidade ou acessibilidade do site;<br>(B) usar o nosso site de qualquer forma que seja ilegal, ilegal, fraudulenta ou prejudicial, ou em conexão com qualquer finalidade ou atividade ilegal, ilegal, fraudulenta ou prejudicial;<br>(C) usar nosso site para copiar, armazenar, hospedar, transmitir, enviar, usar, publicar ou distribuir qualquer material que consista em (ou esteja vinculado a) qualquer spyware, vírus de computador, cavalo de Tróia, worm, keystroke logger, rootkit ou outros Software de computador malicioso; ou<br>(D) conduzir quaisquer atividades sistemáticas ou automatizadas de coleta de dados (incluindo, sem limitação, raspagem, extração de dados, extração de dados e coleta de dados) em ou em relação ao nosso site sem nosso consentimento expresso por escrito.<br>5. Denunciar abuso<br>5.1 Se você souber de algum material ou atividade ilegal em nosso site, ou de qualquer material ou atividade que viole este aviso, entre em contato conosco.<br>5.2 Você pode nos informar sobre qualquer material ou atividade [por e-mail ou usando nosso formulário de relato de abuso].<br>6. Aplicação dos direitos de autor<br>6.1 Consideramos seriamente a protecção dos nossos direitos de autor.<br>6.2 Se descobrimos que você usou nossos materiais protegidos por direitos autorais em violação da licença estabelecida neste aviso, poderemos instaurar um processo judicial contra você, buscando danos monetários e / ou uma medida cautelar para impedir a utilização desses materiais. Você também pode ser condenado a pagar despesas legais.<br>7. Permissões<br>7.1 Você pode solicitar permissão para usar os materiais protegidos por direitos autorais em nosso site, [escrevendo-nos por e-mail ou postagem, usando os detalhes de contato publicados no site].<br><br>As regras acima delineadas estão salvaguardadas pela jurisdição da Lei implementada em todos os países abrangidos pela EU, e o seu infringimento  será punido pelos tribunais a que a mesma é pertencente. <br><b><br></b><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
     }
