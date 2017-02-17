@@ -411,7 +411,7 @@
           "title": "",
           "subtitle": "Envie-nos a sua mensagem ou pergunta",
           "form": {
-            "action": "jmswebconsulting@outlook.com",
+            "action": "jmsantos18632gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -794,7 +794,7 @@
               "text": "<p>By providing answers to questions on your Internet Site, sales and inquiries, they can be processed automatically and immediately, whether you have someone in the office or not. Online forms can be used to allow your clients to request quotes or additional information. Save on costs by allowing them to download bids and other important documents.</p><p></p>",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x12048.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x12060.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
@@ -812,7 +812,7 @@
               "text": "For a small business, a well-built Internet site is an excellent way to induce trust and appear to be greater than it actually is. Currently, your customers assume that you already have a Website. Currently, your most direct competitors probably already have an Internet Site. If so, follow the trend without letting go and arrange ways for your site to be better, presenting its differential.",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x9049.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x9061.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
@@ -830,7 +830,7 @@
               "text": "<p><span style=\"font-size: 1.125rem; line-height: 2;\">Unlike your office or store that has an opening hours, your Site is accessible 24 hours a day, 365 days a year. Your customers may prefer to inquire about your business, products or services outside of business hours or during the weekends, so having an Internet Site creates more business opportunities</span><br></p><div><br></div>",
               "media": {
                 "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x9950.jpg",
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x9962.jpg",
                   "class": "img-circle",
                   "height": 160,
                   "width": 160,
@@ -855,7 +855,7 @@
             "showBio": true,
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x133353.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x133365.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "overlay": true,
@@ -1078,7 +1078,7 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-600x40051.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x40063.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -1094,7 +1094,7 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40052.jpg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-1-600x40064.jpg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
