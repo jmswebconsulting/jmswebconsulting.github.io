@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "page2.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -35,8 +35,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "jmswebconsulting",
+        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -752,7 +752,7 @@
     "page2.html": {
       "settings": {
         "title": "Web Page Generator Title",
-        "meta_descr": "Web Page Generator Description"
+        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">"
       },
       "components": [
         {
