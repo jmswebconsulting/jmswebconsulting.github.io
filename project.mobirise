@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 26,
+    "uniqCompNum": 27,
     "versionPublish": "3.12",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -1235,28 +1235,26 @@
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_anchor": "contacts4-h",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#90a878",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#2969b0",
+            "overlayOpacity": "0.5"
           },
-          "text1": "<strong>Address</strong><br>Lisbon - Portugal<br><br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br><br>",
-          "text2": "",
+          "title": "",
+          "subtitle": "Envie-nos a sua mensagem ou pergunta",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Enviar</a>",
           "form": {
-            "title": "MESSAGE",
-            "action": "jmswebconsulting@outlook.com",
+            "action": "jmsantos18632gmail.com",
             "alerts": {
               "success": "Thanks for filling out form!"
             },
@@ -1273,7 +1271,7 @@
               },
               "phone": {
                 "title": "Phone",
-                "visible": false,
+                "visible": true,
                 "customTitle": "Phone"
               },
               "message": {
@@ -1282,7 +1280,19 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" style=\"background-image: url(qrc:/web/app/themes/mobirise3/components/_images/jumbotron.jpg); padding-top: 120px; padding-bottom: 120px;\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(41, 105, 176);\">\n    </div>\n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"23\"></h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"24\">Envie-nos a sua mensagem ou pergunta</small>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n\n\n                    \n\n\n                    <form action=\"https://formspree.io/jmsantos1863@gmail.com\" method=\"post\">\n\n                        \n\n                        <div class=\"row row-sm-offset\">\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-name\">Name<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" id=\"form1-4-name\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-email\">Email<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" id=\"form1-4-email\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-phone\">Phone</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-4-phone\">\n                                </div>\n                            </div>\n\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label class=\"form-control-label\" for=\"form1-4-message\">Message</label>\n                            <textarea class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\" id=\"form1-4-message\"></textarea>\n                        </div>\n\n                        <div><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"25\">Enviar</button></div>\n\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customCSS": ".form-control-label {\n\tcolor: #232323;\n}\n",
+          "_customTemplate": true,
+          "_anchor": "form1-q"
         }
       ]
     },
