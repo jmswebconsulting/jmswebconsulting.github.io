@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 27,
+    "uniqCompNum": 28,
     "versionPublish": "3.12",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -363,6 +363,31 @@
           },
           "text1": "<strong>Address</strong><br>Tomar - Portugal<br><br><br>\n<strong>Contacts</strong><br>\nEmail: jmswebconsulting@outlook.com<br><br>",
           "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a href=\"index.html\">jmswebconsulting</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><br></ul>"
+        },
+        {
+          "alias": "facebook-comments",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "facebook-comments-block",
+          "_anchor": "facebook-comments-block-r",
+          "_params": {
+            "postsNumber": 5,
+            "bgImage": "@PROJECT_PATH@/assets/images/comments-bg.jpg",
+            "bgImageRadio": true,
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#7e9b9f",
+            "socialFacebook": true,
+            "socialGoogle": false,
+            "shortName": "",
+            "socialDisqus": false
+          },
+          "innerText": "<div class=\"facebookPlaceholder\" data-numposts=\"\"><h2>FACEBOOK COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@PROJECT_PATH@/assets/images/facebook-comments.jpg\"></div>",
+          "innerTextGoogle": "<div class=\"googlePlaceholder\" data-numposts=\"\"><h2>GOOGLE COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/google-comments.jpg\"></div>",
+          "innerTextDisqus": "<div class=\"disqusPlaceholder\" data-numposts=\"\"><h2>DISQUS COMMENTS WILL BE SHOWN ONLY WHEN YOUR SITE IS ONLINE</h2> <img src=\"@ADDONS_PATH@/facebook-comments/facebook-comments-block/assets/disqus-comments.jpg\"></div>"
         },
         {
           "_name": "footer1",
@@ -1289,7 +1314,7 @@
               "color": "#232323"
             }
           },
-          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" style=\"background-image: url(qrc:/web/app/themes/mobirise3/components/_images/jumbotron.jpg); padding-top: 120px; padding-bottom: 120px;\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(41, 105, 176);\">\n    </div>\n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"23\"></h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"24\">send us your questions or comments</small>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n\n\n                    \n\n\n                    <form action=\"https://formspree.io/jmsantos1863@gmail.com\" method=\"post\">\n\n                        \n\n                        <div class=\"row row-sm-offset\">\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-name\">Name<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" id=\"form1-4-name\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-email\">Email<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" id=\"form1-4-email\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-phone\">Phone</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-4-phone\">\n                                </div>\n                            </div>\n\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label class=\"form-control-label\" for=\"form1-4-message\">Message</label>\n                            <textarea class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\" id=\"form1-4-message\"></textarea>\n                        </div>\n\n                        <div><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"25\">send</button></div>\n\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" style=\"background-image: url(qrc:/web/app/themes/mobirise3/components/_images/jumbotron.jpg); padding-top: 120px; padding-bottom: 120px;\">\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(41, 105, 176);\">\n    </div>\n    <div class=\"mbr-section mbr-section__container mbr-section__container--middle\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 text-xs-center\">\n                    <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"23\"></h3>\n                    <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"24\">Envie-nos a sua mensagem ou pergunta</small>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mbr-section mbr-section-nopadding\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-xs-12 col-lg-10 col-lg-offset-1\" data-form-type=\"formoid\">\n\n\n                    \n\n\n                    <form action=\"https://formspree.io/jmsantos1863@gmail.com\" method=\"post\">\n\n                        \n\n                        <div class=\"row row-sm-offset\">\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-name\">Name<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" required=\"\" data-form-field=\"Name\" id=\"form1-4-name\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-email\">Email<span class=\"form-asterisk\">*</span></label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" required=\"\" data-form-field=\"Email\" id=\"form1-4-email\">\n                                </div>\n                            </div>\n\n                            <div class=\"col-xs-12 col-md-4\">\n                                <div class=\"form-group\">\n                                    <label class=\"form-control-label\" for=\"form1-4-phone\">Phone</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\" id=\"form1-4-phone\">\n                                </div>\n                            </div>\n\n                        </div>\n\n                        <div class=\"form-group\">\n                            <label class=\"form-control-label\" for=\"form1-4-message\">Message</label>\n                            <textarea class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\" id=\"form1-4-message\"></textarea>\n                        </div>\n\n                        <div><button type=\"submit\" class=\"btn btn-primary mbr-editable-button\" code-editable-id=\"25\">Enviar</button></div>\n\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_customCSS": ".form-control-label {\n\tcolor: #232323;\n}\n",
           "_customTemplate": true,
           "_anchor": "form1-q"
