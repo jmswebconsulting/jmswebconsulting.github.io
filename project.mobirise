@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -180,7 +180,7 @@
           },
           "title": "JMS WEB CONSULTING",
           "text": "<b>Criação e desenvolvimento de sites para pequenas e &nbsp;médias Empresas</b>",
-          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#form1-4\" data-toolbar=\"-mbrBtnMove\">contacte-nos</a>"
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#contacts4-s\" data-toolbar=\"-mbrBtnMove\">contacte-nos</a>"
         },
         {
           "_inherit": "header1",
@@ -413,7 +413,7 @@
           "text2": "",
           "form": {
             "title": "MESSAGE",
-            "action": "jorge@jmswebconsulting.eu",
+            "action": "jmsantos1863@gmail.com",
             "alerts": {
               "success": "Obrigado por nos contactar"
             },
@@ -1254,7 +1254,7 @@
           "text2": "",
           "form": {
             "title": "MESSAGE",
-            "action": "jorge@jmswebconsulting.eu",
+            "action": "jmsantos1863@gmail.com",
             "alerts": {
               "success": "Obrigado por nos contactar"
             },
