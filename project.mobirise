@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "privacy.html",
+    "currentPage": "page2.html",
     "name": "jmswebconsulting",
     "theme": {
       "name": "mobirise3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 31,
+    "uniqCompNum": 34,
     "versionPublish": "3.12",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -361,8 +361,8 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>Tomar - Portugal<br><br><br>\n<strong>Contacts</strong><br><br>Email: <br>jorge@jmswebconsulting.eu<br>jmswebconsulting@outlook.com<br><br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a href=\"index.html\">jmswebconsulting</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><br></ul>"
+          "text1": "<strong>Address</strong><br>Tomar - Portugal<br><br><br>\n<strong>Contacts</strong><br><br>Emails: <br>jorge@jmswebconsulting.eu<br>jmswebconsulting@outlook.com<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul><li><a href=\"index.html\" target=\"_blank\">https://www.jmswebconsulting.eu</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><br></ul>"
         },
         {
           "_name": "footer1",
@@ -409,7 +409,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<br><br><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\">www.jmswebconsulting.eu</a><br><br>",
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\">secured site: https://www.jmswebconsulting.eu</a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><br><br></p>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
@@ -987,7 +987,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/company-logos-creative-design-vector.svg",
+              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
               "height": 128,
               "alt": "Mobirise",
               "link": "#top",
@@ -1250,7 +1250,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<br><br><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\">www.jmswebconsulting.eu</a><br><br>",
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\">secured site: https://www.jmswebconsulting.eu</a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><br><br></p>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
