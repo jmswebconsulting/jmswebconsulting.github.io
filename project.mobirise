@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "contacto.html",
     "name": "jmswebconsulting",
     "theme": {
       "name": "mobirise3",
@@ -409,7 +409,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\">secured site: https://www.jmswebconsulting.eu</a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><br><br></p>",
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
@@ -1119,7 +1119,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\">secured site: https://www.jmswebconsulting.eu</a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><a href=\"http://www.jmswebconsulting.eu\" target=\"_blank\"></a><br><br></p>",
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
