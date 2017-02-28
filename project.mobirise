@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "name": "jmswebconsulting",
     "theme": {
       "name": "mobirise3",
@@ -469,10 +469,10 @@
         }
       ]
     },
-    "Acerca  de.html": {
+    "privacy.html": {
       "settings": {
-        "title": "Nossa Missao",
-        "meta_descr": "Site Builder Description"
+        "title": "cookie policy",
+        "meta_descr": ""
       },
       "components": [
         {
@@ -532,17 +532,29 @@
             },
             ".btn": {
               "font-size": "14px"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
           "_name": "menu",
-          "_anchor": "menu-6",
+          "_anchor": "menu-t",
           "_params": {
             "bgColor": "#000000",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor",
-            "transparent": true,
+            "transparent": false,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -569,131 +581,26 @@
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
         },
         {
-          "_name": "footer1",
+          "_inherit": "header1",
           "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "footer1-7",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "testimonial": [
-            {
-              "text": "Ao fornecer resposta a questões no seu Site de Internet, vendas e pedidos de informação, podem ser processados de forma automática e imediata, quer tenha alguém no escritório ou não. Formulários online podem ser utilizados para permitir aos seus clientes o pedido de orçamentos ou informações adicionais. Poupe nos custos, permitindo que possam fazer o download de propostas e outros documentos importantes.<p><br></p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x120.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": false
-                }
-              },
-              "authorName": "",
-              "authorBio": ""
+            ".mbr-section-title": {
+              "color": "#000"
             },
-            {
-              "text": "Para um pequeno negócio, um Site de Internet bem construído é uma excelente maneira de induzir confiança e aparentar ser maior do que na realidade é. Atualmente, os seus clientes presumem que já tenha um Site na Internet. Atualmente, os seus concorrentes mais diretos provavelmente já têm um Site na Internet. Se assim for, acompanhe a tendência sem se deixar afastar e arranje maneiras de o seu Site ser melhor, apresentando o seu diferencial.",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x90.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": false
-                }
-              },
-              "authorName": "Jorge S.",
-              "authorBio": "Designer-Developer"
-            },
-            {
-              "text": "<p>Ao contrário do seu escritório ou loja, que tem um horário de funcionamento, o seu Site está acessível 24 horas por dia, 365 dias por ano. Os seus clientes podem preferir informarem-se sobre o seu negócio, produtos ou serviços fora do horário de expediente ou durante os fins de semana, por isso, ter um Site na Internet cria mais oportunidades de negócio</p><p><br></p><p><br></p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x99.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": false
-                }
-              },
-              "authorName": "",
-              "authorBio": ""
-            }
-          ],
-          "_anchor": "testimonials1-8",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
-          },
-          "title": "O que nos torna diferentes",
-          "subtitle": "A capacidade de nos adaptar-mos às necessidades dos nossos clientes"
-        },
-        {
-          "_styles": {
-            ".mbr-section__container .mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "color": "#a0a0a0"
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
             }
           },
           "_tags": [
             "Theme"
           ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-b",
+          "_name": "header5",
+          "_anchor": "header5-u",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "parallax": true,
             "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#303030",
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#63666c",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -701,59 +608,21 @@
             "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayColor": "#000",
+            "contentAlign": "left",
             "showTitle": true,
-            "showSubtitle": true,
-            "firstType": "",
-            "showButtons": true,
-            "secondType": "hidden",
-            "thirdType": "hidden",
-            "fourthType": "hidden"
+            "showText": true,
+            "showButtons": false
           },
-          "title": "",
-          "subtitle": "",
-          "label1": "HOT!",
-          "title1": "Site simples",
-          "subtitle1": "a partir de",
-          "currency1": "€",
-          "price1": "25",
-          "period1": "/mês<br>(contracto de 2 Anos 30% off)<br>",
-          "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
-          "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Página Inicial com letreiro rotativo em destaque.</span></p><p><span style=\"font-size: 14px; line-height: 50px;\"><br></span><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre a Empresa.</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre o Serviço Oferecido.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Galeria de Fotos.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contato (formulário).<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Alojamento incluido.</span><br><span style=\"font-size: 14px; line-height: 50px;\">Registo do Dominio.</span></ul></div><p></p>",
-          "button1": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contactar</a>",
-          "label2": "HOT!",
-          "title2": "BUSINESS",
-          "subtitle2": "Description",
-          "currency2": "$",
-          "price2": "0",
-          "period2": "/mo.",
-          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">users</li><br></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\"></a>",
-          "label3": "HOT!",
-          "title3": "PREMIUM",
-          "subtitle3": "Description",
-          "currency3": "$",
-          "price3": "0",
-          "period3": "/mo.",
-          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
-          "label4": "HOT!",
-          "title4": "ULTIMATE",
-          "subtitle4": "Description",
-          "currency4": "$",
-          "price4": "0",
-          "period4": "/mo.",
-          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
+          "title": "cookie policy",
+          "text": "<br><br>Cookies policy<br>1.\tIntroduction<br>1.1\tOur website uses cookies.<br>1.2\t[We will ask you to consent to our use of cookies in accordance with the terms of this policy when you first visit our website.] OR [By using our website and agreeing to this policy, you consent to our use of cookies in accordance with the terms of this policy.]<br>2.\tCredit<br>2.1\tThis document was created using a template from SEQ Legal (http://www.seqlegal.com).<br>You must retain the above credit. Use of this document without the credit is an infringement of copyright. However, you can purchase from us an equivalent document that does not include the credit.<br>3.\tAbout cookies<br>3.1\tA cookie is a file containing an identifier (a string of letters and numbers) that is sent by a web server to a web browser and is stored by the browser. The identifier is then sent back to the server each time the browser requests a page from the server.<br>3.2\tCookies may be either \"persistent\" cookies or \"session\" cookies: a persistent cookie will be stored by a web browser and will remain valid until its set expiry date, unless deleted by the user before the expiry date; a session cookie, on the other hand, will expire at the end of the user session, when the web browser is closed.<br>3.3\tCookies do not typically contain any information that personally identifies a user, but personal information that we store about you may be linked to the information stored in and obtained from cookies.<br>3.4\tCookies can be used by web servers to identify and track users as they navigate different pages on a website and identify users returning to a website.<br>4.\tOur cookies<br>4.1\tWe use [only session cookies] OR [only persistent cookies] OR [both session and persistent cookies] on our website.<br>4.2\tThe names of the cookies that we use on our website, and the purposes for which they are used, are set out below:<br>(a)\twe use [cookie name] to [recognise a computer when a user visits our website] OR [track users as they navigate the website] OR [enable the use of a shopping cart on the website] OR [improve the website's usability] OR [administer the website] OR [prevent fraud and improve the security of the website] OR [personalise the website for each user] OR [target advertisements which may be of particular interest to specific users] OR [validate authenticated users sessions] OR [facilitate the use of our website search engine] OR [[specify purpose]].<br>[additional list items]<br>5.\tAnalytics cookies<br>5.1\tWe use [Google Analytics] to analyse the use of our website.<br>5.2\tOur analytics service provider generates statistical and other information about website use by means of cookies.<br>5.3\tThe analytics cookies used by our website have the following names: [_ga, _gat, __utma, __utmt, __utmb, __utmc, __utmz and __utmv].<br>5.4\tThe information generated relating to our website is used to create reports about the use of our website.<br>5.5\tOur analytics service provider's privacy policy is available at: [http://www.google.com/policies/privacy/].<br>6.\tThird party cookies<br>6.1\tOur website also uses third party cookies.<br>6.2\t[We publish Google AdSense interest-based advertisements on our website. These are tailored by Google to reflect your interests. To determine your interests, Google will track your behaviour on our website and on other websites across the web using the DoubleClick cookie.] OR [We publish Google AdSense advertisements on our website. To determine your interests, Google will track your behaviour on our website and on other websites across the web using the DoubleClick cookie. This behaviour tracking allows Google to tailor the advertisements you see on other websites to reflect your interests (we do not publish interest-based advertisements on this website).] You can view, delete or add interest categories associated with your browser by visiting: http://www.google.com/settings/ads/. You can also opt out of the AdSense partner network cookie using those settings or using the NAI's (Network Advertising Initiative's) multi-cookie opt-out mechanism at: http://www.networkadvertising.org/choices/. However, these opt-out mechanisms themselves use cookies, and if you clear the cookies from your browser your opt-out will not be maintained. To ensure that an opt-out is maintained in respect of a particular browser, you may wish to consider using the Google browser plug-in available at: https://www.google.com/settings/ads/plugin.<br>6.3\tDetails of the[ other] third party cookies used by our website are set out below:<br>(a)\t[third party cookie details].<br>[additional list items]<br>7.\tBlocking cookies<br>7.1\tMost browsers allow you to refuse to accept cookies; for example: <br>(a)\tin Internet Explorer (version 11) you can block cookies using the cookie handling override settings available by clicking \"Tools\", \"Internet Options\", \"Privacy\" and then \"Advanced\";<br>(b)\tin Firefox (version 47) you can block all cookies by clicking \"Tools\", \"Options\", \"Privacy\", selecting \"Use custom settings for history\" from the drop-down menu, and unticking \"Accept cookies from sites\"; and<br>(c)\tin Chrome (version 52), you can block all cookies by accessing the \"Customise and control\" menu, and clicking \"Settings\", \"Show advanced settings\" and \"Content settings\", and then selecting \"Block sites from setting any data\" under the \"Cookies\" heading.<br>7.2\tBlocking all cookies will have a negative impact upon the usability of many websites.<br>7.3\tIf you block cookies, you will not be able to use all the features on our website.<br>8.\tDeleting cookies<br>8.1\tYou can delete cookies already stored on your computer; for example:<br>(a)\tin Internet Explorer (version 11), you must manually delete cookie files (you can find instructions for doing so at http://windows.microsoft.com/en-gb/internet-explorer/delete-manage-cookies#ie=ie-11);<br>(b)\tin Firefox (version 47), you can delete cookies by clicking \"Tools\", \"Options\" and \"Privacy\", then selecting \"Use custom settings for history\" from the drop-down menu, clicking \"Show Cookies\", and then clicking \"Remove All Cookies\"; and<br>(c)\tin Chrome (version 52), you can delete all cookies by accessing the \"Customise and control\" menu, and clicking \"Settings\", \"Show advanced settings\" and \"Clear browsing data\", and then selecting \"Cookies and other site and plug-in data\" before clicking \"Clear browsing data\".<br>8.2\tDeleting cookies will have a negative impact on the usability of many websites.<br>9.\tCookie preferences<br>9.1\tYou can manage your preferences relating to the use of cookies on our website by visiting: [URL]<br>10.\tOur details<br>10.1\tThis website is owned and operated by [name].<br>10.2\tWe are registered in [England and Wales] under registration number [number], and our registered office is at [address].<br>10.3\tOur principal place of business is at [address].<br>10.4\tYou can contact us:<br>(a)\t[by post, using the postal address [given above]];<br>(b)\t[using our website contact form];<br>(c)\t[by telephone, on [the contact number published on our website from time to time]]; or<br>(d)\t[by email, using [the email address published on our website from time to time]].<br>[additional list items]<br> <br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
     },
-    "page2.html": {
+    "contacto.html": {
       "settings": {
-        "title": "Web Page Generator Title",
+        "title": "jmswebconsulting",
         "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">"
       },
       "components": [
@@ -1284,10 +1153,292 @@
         }
       ]
     },
-    "page3.html": {
+    "Acercadenos.html": {
       "settings": {
-        "title": "Web Site Builder Title",
-        "meta_descr": "Web Site Builder Description"
+        "title": "Nossa Missao",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#000000!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-6",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "Ao fornecer resposta a questões no seu Site de Internet, vendas e pedidos de informação, podem ser processados de forma automática e imediata, quer tenha alguém no escritório ou não. Formulários online podem ser utilizados para permitir aos seus clientes o pedido de orçamentos ou informações adicionais. Poupe nos custos, permitindo que possam fazer o download de propostas e outros documentos importantes.<p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x120.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "",
+              "authorBio": ""
+            },
+            {
+              "text": "Para um pequeno negócio, um Site de Internet bem construído é uma excelente maneira de induzir confiança e aparentar ser maior do que na realidade é. Atualmente, os seus clientes presumem que já tenha um Site na Internet. Atualmente, os seus concorrentes mais diretos provavelmente já têm um Site na Internet. Se assim for, acompanhe a tendência sem se deixar afastar e arranje maneiras de o seu Site ser melhor, apresentando o seu diferencial.",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x90.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Jorge S.",
+              "authorBio": "Designer-Developer"
+            },
+            {
+              "text": "<p>Ao contrário do seu escritório ou loja, que tem um horário de funcionamento, o seu Site está acessível 24 horas por dia, 365 dias por ano. Os seus clientes podem preferir informarem-se sobre o seu negócio, produtos ou serviços fora do horário de expediente ou durante os fins de semana, por isso, ter um Site na Internet cria mais oportunidades de negócio</p><p><br></p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x99.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "O que nos torna diferentes",
+          "subtitle": "A capacidade de nos adaptar-mos às necessidades dos nossos clientes"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#303030",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "hidden",
+            "thirdType": "hidden",
+            "fourthType": "hidden"
+          },
+          "title": "",
+          "subtitle": "",
+          "label1": "HOT!",
+          "title1": "Site simples",
+          "subtitle1": "a partir de",
+          "currency1": "€",
+          "price1": "25",
+          "period1": "/mês<br>(contracto de 2 Anos 30% off)<br>",
+          "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
+          "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Página Inicial com letreiro rotativo em destaque.</span></p><p><span style=\"font-size: 14px; line-height: 50px;\"><br></span><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre a Empresa.</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre o Serviço Oferecido.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Galeria de Fotos.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contato (formulário).<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Alojamento incluido.</span><br><span style=\"font-size: 14px; line-height: 50px;\">Registo do Dominio.</span></ul></div><p></p>",
+          "button1": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contactar</a>",
+          "label2": "HOT!",
+          "title2": "BUSINESS",
+          "subtitle2": "Description",
+          "currency2": "$",
+          "price2": "0",
+          "period2": "/mo.",
+          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">users</li><br></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\"></a>",
+          "label3": "HOT!",
+          "title3": "PREMIUM",
+          "subtitle3": "Description",
+          "currency3": "$",
+          "price3": "0",
+          "period3": "/mo.",
+          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Description",
+          "currency4": "$",
+          "price4": "0",
+          "period4": "/mo.",
+          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
+          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
+        }
+      ]
+    },
+    "jmswebconsulting.html": {
+      "settings": {
+        "title": "jmswebconsulting",
+        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">"
       },
       "components": [
         {
@@ -1431,157 +1582,6 @@
           },
           "title": "copyright notice",
           "text": "<br>1.\t2.\tCopyright notice<br>2.\t2.1\tCopyright (c) 2017 of first publication, JMS Web consulting<br>2.2\tSubject to the express provisions of this notice:<br>(a)\twe, together with our licensors, own and control all the copyright and other intellectual property rights in our website and the material on our website; and<br>(b)\tall the copyright and other intellectual property rights in our website and the material on our website are reserved.<br>3.\tCopyright licence<br>4.\t3.1\tYou may:<br>(a)\tview pages from our website in a web browser;<br>(b)\tdownload pages from our website for caching in a web browser;<br>(c)\tprint pages from our website;<br>(d)\t[stream audio and video files from our website]; and<br>(e)\t[use [our website services] by means of a web browser],<br>5.\tsubject to the other provisions of this notice.<br>6.\t3.2\tExcept as expressly permitted by the other provisions of this notice, you must not download any material from our website or save any such material to your computer.<br>7.\t3.3\tYou may only use our website for [your own personal and business purposes], and you must not use our website for any other purposes.<br>8.\t3.4\tExcept as expressly permitted by this notice, you must not edit or otherwise modify any material on our website.<br>9.\t3.5\tUnless you own or control the relevant rights in the material, you must not:<br>(a)\trepublish material from our website (including republication on another website);<br>(b)\tsell, rent or sub-license material from our website;<br>(c)\tshow any material from our website in public;<br>(d)\texploit material from our website for a commercial purpose; or<br>(e)\tredistribute material from our website, save to the extent expressly permitted by this notice.<br>10.\t4.\tAcceptable use<br>11.\t4.1\tYou must not:<br>(a)\tuse our website in any way or take any action that causes, or may cause, damage to the website or impairment of the performance, availability or accessibility of the website;<br>(b)\tuse our website in any way that is unlawful, illegal, fraudulent or harmful, or in connection with any unlawful, illegal, fraudulent or harmful purpose or activity;<br>(c)\tuse our website to copy, store, host, transmit, send, use, publish or distribute any material which consists of (or is linked to) any spyware, computer virus, Trojan horse, worm, keystroke logger, rootkit or other malicious computer software; or<br>(d)\tconduct any systematic or automated data collection activities (including without limitation scraping, data mining, data extraction and data harvesting) on or in relation to our website without our express written consent.<br>12.\t5.\tReport abuse<br>13.\t5.1\tIf you learn of any unlawful material or activity on our website, or any material or activity that breaches this notice, please let us know.<br>14.\t5.2\tYou can let us know about any such material or activity [by email or using our abuse reporting form].<br>15.\t6.\tEnforcement of copyright<br>16.\t6.1\tWe take the protection of our copyright very seriously.<br>17.\t6.2\tIf we discover that you have used our copyright materials in contravention of the licence set out in this notice, we may bring legal proceedings against you, seeking monetary damages and/or an injunction to stop you using those materials. You could also be ordered to pay legal costs.<br>18.\t7.\tPermissions<br>19.\t7.1\tYou may request permission to use the copyright materials on our website by [writing to us by email or post, using the contact details published on the website].<br><br><b>Direitos Autorias</b><br><b><br></b>1. Crédito<br>1.1 Este documento foi criado usando um modelo da SEQ Legal (http://www.seqlegal.com).<br>2. Aviso de direitos autorais<br>2.1 Direitos de autor (c) [ano (2017) da primeira publicação] [JMS Web Consulting].<br>2.2 Sob reserva das disposições expressas do presente aviso:<br>(A) nós, juntamente com nossos licenciadores, possuímos e controlamos todos os direitos autorais e outros direitos de propriedade intelectual em nosso site e o material em nosso site; e<br>(B) todos os direitos autorais e outros direitos de propriedade intelectual em nosso site e os materiais em nosso site são reservados.<br>3. Licença de direitos autorais<br>3.1 Você pode:<br>(A) exibir páginas do nosso site em um navegador da Web;<br>(B) download de páginas do nosso site para armazenamento em cache em um navegador web;<br>(C) imprimir páginas do nosso site;<br>(D) [transmitir arquivos de áudio e vídeo de nosso site]; e<br>(E) [utilizar [os nossos serviços do sítio web] através de um navegador web],<br>Sujeito às restantes disposições do presente aviso.<br>3.2 A menos que expressamente permitido pelas outras disposições deste aviso, você não deve baixar qualquer material do nosso site ou salvar qualquer material para o seu computador.<br>3.3 Você só pode usar o nosso site para [seus próprios fins pessoais e comerciais], e você não deve usar o nosso site para quaisquer outros fins.<br>3.4 Exceto quando expressamente permitido por este aviso, você não deve editar ou modificar qualquer material em nosso site.<br>3.5 A menos que você possua ou controle os direitos relevantes no material, você não deve:<br>(A) republicar material de nosso site (incluindo republicação em outro site);<br>(B) vender, alugar ou sub-licenciar material do nosso site;<br>(C) mostrar qualquer material do nosso site em público;<br>(D) explorar material de nosso website para fins comerciais; ou<br>(E) redistribuir material do nosso site, salvo na medida expressamente permitida por este aviso.<br>4. Uso aceitável<br>4.1 Você não pode:<br>(A) usar nosso website de qualquer forma ou tomar qualquer ação que cause, ou possa causar, danos ao site ou prejuízo do desempenho, disponibilidade ou acessibilidade do site;<br>(B) usar o nosso site de qualquer forma que seja ilegal, ilegal, fraudulenta ou prejudicial, ou em conexão com qualquer finalidade ou atividade ilegal, ilegal, fraudulenta ou prejudicial;<br>(C) usar nosso site para copiar, armazenar, hospedar, transmitir, enviar, usar, publicar ou distribuir qualquer material que consista em (ou esteja vinculado a) qualquer spyware, vírus de computador, cavalo de Tróia, worm, keystroke logger, rootkit ou outros Software de computador malicioso; ou<br>(D) conduzir quaisquer atividades sistemáticas ou automatizadas de coleta de dados (incluindo, sem limitação, raspagem, extração de dados, extração de dados e coleta de dados) em ou em relação ao nosso site sem nosso consentimento expresso por escrito.<br>5. Denunciar abuso<br>5.1 Se você souber de algum material ou atividade ilegal em nosso site, ou de qualquer material ou atividade que viole este aviso, entre em contato conosco.<br>5.2 Você pode nos informar sobre qualquer material ou atividade [por e-mail ou usando nosso formulário de relato de abuso].<br>6. Aplicação dos direitos de autor<br>6.1 Consideramos seriamente a protecção dos nossos direitos de autor.<br>6.2 Se descobrimos que você usou nossos materiais protegidos por direitos autorais em violação da licença estabelecida neste aviso, poderemos instaurar um processo judicial contra você, buscando danos monetários e / ou uma medida cautelar para impedir a utilização desses materiais. Você também pode ser condenado a pagar despesas legais.<br>7. Permissões<br>7.1 Você pode solicitar permissão para usar os materiais protegidos por direitos autorais em nosso site, [escrevendo-nos por e-mail ou postagem, usando os detalhes de contato publicados no site].<br><br>As regras acima delineadas estão salvaguardadas pela jurisdição da Lei implementada em todos os países abrangidos pela EU, e o seu infringimento  será punido pelos tribunais a que a mesma é pertencente. <br><b><br></b><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
-        }
-      ]
-    },
-    "privacy.html": {
-      "settings": {
-        "title": "cookie policy",
-        "meta_descr": "Web Site Builder Description"
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "14px"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-t",
-          "_params": {
-            "bgColor": "#000000",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
-        },
-        {
-          "_inherit": "header1",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#000"
-            },
-            ".mbr-section-lead": {
-              "color": "#9c9a9a"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header5",
-          "_anchor": "header5-u",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#63666c",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "cookie policy",
-          "text": "<br><br>Cookies policy<br>1.\tIntroduction<br>1.1\tOur website uses cookies.<br>1.2\t[We will ask you to consent to our use of cookies in accordance with the terms of this policy when you first visit our website.] OR [By using our website and agreeing to this policy, you consent to our use of cookies in accordance with the terms of this policy.]<br>2.\tCredit<br>2.1\tThis document was created using a template from SEQ Legal (http://www.seqlegal.com).<br>You must retain the above credit. Use of this document without the credit is an infringement of copyright. However, you can purchase from us an equivalent document that does not include the credit.<br>3.\tAbout cookies<br>3.1\tA cookie is a file containing an identifier (a string of letters and numbers) that is sent by a web server to a web browser and is stored by the browser. The identifier is then sent back to the server each time the browser requests a page from the server.<br>3.2\tCookies may be either \"persistent\" cookies or \"session\" cookies: a persistent cookie will be stored by a web browser and will remain valid until its set expiry date, unless deleted by the user before the expiry date; a session cookie, on the other hand, will expire at the end of the user session, when the web browser is closed.<br>3.3\tCookies do not typically contain any information that personally identifies a user, but personal information that we store about you may be linked to the information stored in and obtained from cookies.<br>3.4\tCookies can be used by web servers to identify and track users as they navigate different pages on a website and identify users returning to a website.<br>4.\tOur cookies<br>4.1\tWe use [only session cookies] OR [only persistent cookies] OR [both session and persistent cookies] on our website.<br>4.2\tThe names of the cookies that we use on our website, and the purposes for which they are used, are set out below:<br>(a)\twe use [cookie name] to [recognise a computer when a user visits our website] OR [track users as they navigate the website] OR [enable the use of a shopping cart on the website] OR [improve the website's usability] OR [administer the website] OR [prevent fraud and improve the security of the website] OR [personalise the website for each user] OR [target advertisements which may be of particular interest to specific users] OR [validate authenticated users sessions] OR [facilitate the use of our website search engine] OR [[specify purpose]].<br>[additional list items]<br>5.\tAnalytics cookies<br>5.1\tWe use [Google Analytics] to analyse the use of our website.<br>5.2\tOur analytics service provider generates statistical and other information about website use by means of cookies.<br>5.3\tThe analytics cookies used by our website have the following names: [_ga, _gat, __utma, __utmt, __utmb, __utmc, __utmz and __utmv].<br>5.4\tThe information generated relating to our website is used to create reports about the use of our website.<br>5.5\tOur analytics service provider's privacy policy is available at: [http://www.google.com/policies/privacy/].<br>6.\tThird party cookies<br>6.1\tOur website also uses third party cookies.<br>6.2\t[We publish Google AdSense interest-based advertisements on our website. These are tailored by Google to reflect your interests. To determine your interests, Google will track your behaviour on our website and on other websites across the web using the DoubleClick cookie.] OR [We publish Google AdSense advertisements on our website. To determine your interests, Google will track your behaviour on our website and on other websites across the web using the DoubleClick cookie. This behaviour tracking allows Google to tailor the advertisements you see on other websites to reflect your interests (we do not publish interest-based advertisements on this website).] You can view, delete or add interest categories associated with your browser by visiting: http://www.google.com/settings/ads/. You can also opt out of the AdSense partner network cookie using those settings or using the NAI's (Network Advertising Initiative's) multi-cookie opt-out mechanism at: http://www.networkadvertising.org/choices/. However, these opt-out mechanisms themselves use cookies, and if you clear the cookies from your browser your opt-out will not be maintained. To ensure that an opt-out is maintained in respect of a particular browser, you may wish to consider using the Google browser plug-in available at: https://www.google.com/settings/ads/plugin.<br>6.3\tDetails of the[ other] third party cookies used by our website are set out below:<br>(a)\t[third party cookie details].<br>[additional list items]<br>7.\tBlocking cookies<br>7.1\tMost browsers allow you to refuse to accept cookies; for example: <br>(a)\tin Internet Explorer (version 11) you can block cookies using the cookie handling override settings available by clicking \"Tools\", \"Internet Options\", \"Privacy\" and then \"Advanced\";<br>(b)\tin Firefox (version 47) you can block all cookies by clicking \"Tools\", \"Options\", \"Privacy\", selecting \"Use custom settings for history\" from the drop-down menu, and unticking \"Accept cookies from sites\"; and<br>(c)\tin Chrome (version 52), you can block all cookies by accessing the \"Customise and control\" menu, and clicking \"Settings\", \"Show advanced settings\" and \"Content settings\", and then selecting \"Block sites from setting any data\" under the \"Cookies\" heading.<br>7.2\tBlocking all cookies will have a negative impact upon the usability of many websites.<br>7.3\tIf you block cookies, you will not be able to use all the features on our website.<br>8.\tDeleting cookies<br>8.1\tYou can delete cookies already stored on your computer; for example:<br>(a)\tin Internet Explorer (version 11), you must manually delete cookie files (you can find instructions for doing so at http://windows.microsoft.com/en-gb/internet-explorer/delete-manage-cookies#ie=ie-11);<br>(b)\tin Firefox (version 47), you can delete cookies by clicking \"Tools\", \"Options\" and \"Privacy\", then selecting \"Use custom settings for history\" from the drop-down menu, clicking \"Show Cookies\", and then clicking \"Remove All Cookies\"; and<br>(c)\tin Chrome (version 52), you can delete all cookies by accessing the \"Customise and control\" menu, and clicking \"Settings\", \"Show advanced settings\" and \"Clear browsing data\", and then selecting \"Cookies and other site and plug-in data\" before clicking \"Clear browsing data\".<br>8.2\tDeleting cookies will have a negative impact on the usability of many websites.<br>9.\tCookie preferences<br>9.1\tYou can manage your preferences relating to the use of cookies on our website by visiting: [URL]<br>10.\tOur details<br>10.1\tThis website is owned and operated by [name].<br>10.2\tWe are registered in [England and Wales] under registration number [number], and our registered office is at [address].<br>10.3\tOur principal place of business is at [address].<br>10.4\tYou can contact us:<br>(a)\t[by post, using the postal address [given above]];<br>(b)\t[using our website contact form];<br>(c)\t[by telephone, on [the contact number published on our website from time to time]]; or<br>(d)\t[by email, using [the email address published on our website from time to time]].<br>[additional list items]<br> <br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
