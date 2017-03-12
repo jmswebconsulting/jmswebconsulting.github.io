@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "contacto.html",
+    "currentPage": "english.html",
     "name": "jmswebconsulting",
     "theme": {
       "name": "mobirise3",
@@ -22,22 +22,25 @@
       }
     },
     "versionFirst": "3.12",
-    "uniqCompNum": 34,
+    "uniqCompNum": 58,
     "versionPublish": "3.12",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": "",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "google-analytics": "<!--Start Cookie Script-->\r\n<script type=\"text/javascript\" charset=\"UTF-8\" src=\"http://chs03.cookie-script.com/s/6cf8b23c64526091d9015d267ac71309.js\"></script>\r\n<!--End Cookie Script-->"
+    "google-analytics": "<!--Start Cookie Script-->\r\n<script type=\"text/javascript\" charset=\"UTF-8\" src=\"http://chs03.cookie-script.com/s/6cf8b23c64526091d9015d267ac71309.js\"></script>\r\n<!--End Cookie Script-->",
+    "mcShopcart": {
+      "email": "jmswebconsulting@outlook.com"
+    }
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "jmswebconsulting",
-        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">",
-        "header_custom": "",
+        "meta_descr": "<meta name=\"description\" content=\"Criamos websites profissionais com design responsive adaptado para vários dispositivos e optimizados para os motores de pesquisa\">\n    <link rel=\"canonical\" href=\"https://jmswebconsulting.eu\">\n    <meta property=\"og:locale\" content=\"pt_PT\">\n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:title\" content=\"jmswebconsulting.eu\">\n    <meta property=\"og:description\" content=\"Criamos websites profissionais com design responsive adaptado para vários dispositivos e optimizados para os motores de pesquisa\">\n    <meta property=\"og:url\" content=\"https://jmswebconsulting.eu\">\n    <meta property=\"og:site_name\" content=\"jmswebconsulting.eu\">\n<meta name=\"keywords\" content=\"Design de Logótipo, Design de Logos, Design de Logótipos, Logo Design, Web Design Responsivo, Responsive Web Design, Sites\"",
+        "header_custom": "<meta name=\"msvalidate.01\" content=\"91EE416353E7D4DA11E1606ED5ECECA6\" />",
         "footer_custom": "",
         "html_before": ""
       },
@@ -51,10 +54,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -66,16 +69,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#1b044f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#260571!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#2b0680"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -95,7 +98,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".btn": {
               "font-size": "14px"
@@ -113,12 +116,12 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#2b0680",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -141,8 +144,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Acercadenos.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#contacts4-s\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Trabalhos.html\">Trabalhos</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"english.html\">English</a></li>"
         },
         {
           "_name": "header1",
@@ -375,16 +378,16 @@
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "4",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1833.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayOpacity": "0.4",
+            "overlayColor": "#c1c1c1"
           },
-          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
+          "text": "<p><a href=\"copyright.html\" class=\"text-primary\">copyright (2017) - jmsweb consulting</a></p>"
         },
         {
           "_tags": [
@@ -403,13 +406,13 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#7e9b9f",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\" class=\"text-black\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
@@ -439,7 +442,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
         },
         {
           "_styles": {
@@ -484,10 +487,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -499,16 +502,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#1b044f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#260571!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#2b0680"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -528,7 +531,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".btn": {
               "font-size": "14px"
@@ -549,12 +552,12 @@
           "_name": "menu",
           "_anchor": "menu-t",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#2b0680",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -577,8 +580,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Acercadenos.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#contacts4-s\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Trabalhos.html\">Trabalhos</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"english.html\">English</a></li>"
         },
         {
           "_inherit": "header1",
@@ -620,10 +623,761 @@
         }
       ]
     },
-    "contacto.html": {
+    "Acercadenos.html": {
+      "settings": {
+        "title": "Nossa Missao",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b044f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#260571!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2b0680"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-6",
+          "_params": {
+            "bgColor": "#2b0680",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Acercadenos.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#contacts4-s\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Trabalhos.html\">Trabalhos</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"english.html\">English</a></li>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1833.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#c1c1c1"
+          },
+          "text": "<p><a href=\"copyright.html\" class=\"text-primary\">copyright (2017) - jmsweb consulting</a></p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "testimonials1",
+          "testimonial": [
+            {
+              "text": "Ao fornecer resposta a questões no seu Site de Internet, vendas e pedidos de informação, podem ser processados de forma automática e imediata, quer tenha alguém no escritório ou não. Formulários online podem ser utilizados para permitir aos seus clientes o pedido de orçamentos ou informações adicionais. Poupe nos custos, permitindo que possam fazer o download de propostas e outros documentos importantes.<p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x120.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "",
+              "authorBio": ""
+            },
+            {
+              "text": "Para um pequeno negócio, um Site de Internet bem construído é uma excelente maneira de induzir confiança e aparentar ser maior do que na realidade é. Atualmente, os seus clientes presumem que já tenha um Site na Internet. Atualmente, os seus concorrentes mais diretos provavelmente já têm um Site na Internet. Se assim for, acompanhe a tendência sem se deixar afastar e arranje maneiras de o seu Site ser melhor, apresentando o seu diferencial.",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x90.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "Jorge S.",
+              "authorBio": "Designer-Developer"
+            },
+            {
+              "text": "<p>Ao contrário do seu escritório ou loja, que tem um horário de funcionamento, o seu Site está acessível 24 horas por dia, 365 dias por ano. Os seus clientes podem preferir informarem-se sobre o seu negócio, produtos ou serviços fora do horário de expediente ou durante os fins de semana, por isso, ter um Site na Internet cria mais oportunidades de negócio</p><p><br></p><p><br></p>",
+              "media": {
+                "image": {
+                  "src": "@PROJECT_PATH@/assets/images/mbr-160x99.jpg",
+                  "class": "img-circle",
+                  "height": 160,
+                  "width": 160,
+                  "active": true,
+                  "link": "",
+                  "alt": "",
+                  "title": "",
+                  "linkInNewWindow": false
+                }
+              },
+              "authorName": "",
+              "authorBio": ""
+            }
+          ],
+          "_anchor": "testimonials1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "count": 3,
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true
+          },
+          "title": "O que nos torna diferentes",
+          "subtitle": "A capacidade de nos adaptar-mos às necessidades dos nossos clientes"
+        },
+        {
+          "_styles": {
+            ".mbr-section__container .mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section__container .mbr-section-subtitle": {
+              "color": "#a0a0a0"
+            },
+            "P": {
+              "font-size": "16px"
+            },
+            "DIV": {
+              "font-size": "15px",
+              "color": "#2b0680",
+              "text-align": "center"
+            },
+            ".mbr-plan-price-desc": {
+              "color": "#efefef"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-b",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#7e9b9f",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubtitle": true,
+            "firstType": "",
+            "showButtons": true,
+            "secondType": "",
+            "thirdType": "",
+            "fourthType": "bg-primary"
+          },
+          "title": "",
+          "subtitle": "",
+          "label1": "HOT!",
+          "title1": "Site simples",
+          "subtitle1": "a partir de",
+          "currency1": "€",
+          "price1": "25",
+          "period1": "/mês<br>(contracto de 2 Anos 30% off)<br>",
+          "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
+          "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Manutenção e updates do site incluidos.</span></p><p><span style=\"font-size: 14px; line-height: 50px;\"><br></span><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre a Empresa.</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre o Serviço Oferecido.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Galeria de Fotos.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contato (formulário).<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Alojamento incluido.</span><br><span style=\"font-size: 14px; line-height: 50px;\">Registo do Dominio.</span></ul></div><div><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\"><br></span></ul></div><div><ul class=\"list-group list-group-flush\"><b>Ao clicar no botâo comprar, será transferido para a Plataforma do Paypal (site seguro), apos a compra e a comfirmação de pagamento, entrarei em contacto para o envio de todos os documentos necessários para \bo seu site: Fotos, videos, redes sociais, textos, etc.</b></ul><ul class=\"list-group list-group-flush\"><br></ul></div><p></p>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=210&amp;item_name=Constru%C3%A7%C3%A3o+de+site++com+Alojamento+(1+ano+pagamento)&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">comprar</a>",
+          "label2": "HOT!",
+          "title2": "Construção de site",
+          "subtitle2": "(Alojamento extra)",
+          "currency2": "<span class=\"Apple-tab-span\" style=\"white-space:pre\">\t</span>€",
+          "price2": "189",
+          "period2": ".00",
+          "description2": "JMS Web Consulting oferece este plano <br>por um preço imbativel &nbsp;<br><br><br><br>",
+          "list2": "<p>Página Inicial com letreiro rotativo em destaque.</p><div><br></div><div><br></div><div>Página Sobre a Empresa.</div><div><br></div><div>Página Sobre o Serviço Oferecido.</div><div><br></div><div>Galeria de Fotos</div><div>.</div><div>Contato (formulário).</div><div><br></div><div><br></div><div><br></div><div>(Alojamento + &nbsp;€ 5.oo mês)</div><div><br></div><div>(Registo do Dominio + &nbsp;€ 12.00 Anual)</div><div><br></div><div><br></div><div><br></div><b>Ao clicar no botâo comprar, será transferido para a Plataforma do Paypal (site seguro), apos a compra e a comfirmação de pagamento, entrarei em contacto para o envio de todos os documentos necessários para \bo seu site: Fotos, videos, redes sociais, textos, etc.</b><p></p><p></p><div><b><br></b><div><ul class=\"list-group list-group-flush\"><br></ul></div></div><p></p>",
+          "button2": " <a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=189&amp;item_name=Constru%C3%A7%C3%A3o+de+site+&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">comprar</a>",
+          "label3": "HOT!",
+          "title3": "PREMIUM",
+          "subtitle3": "(Alojamento extra)",
+          "currency3": "€",
+          "price3": "289",
+          "period3": ".00",
+          "description3": "JMS Web Consulting oferece este plano <br>por um preço imbativel &nbsp;",
+          "list3": "<p>&nbsp;<b>Inclui também a criação de &nbsp;loja online com carro de compras, link, conta com pagamento por Paypal &nbsp;e galeria de produtos com fotos (até 25 produtos).</b></p><p><span style=\"line-height: 1.5;\">Página Inicial com letreiro rotativo em destaque.</span><br></p><ul class=\"list-group list-group-flush\"></ul><div><span style=\"line-height: 1.5;\">Página Sobre a Empresa.</span><br></div><div><br></div><div>Página Sobre o Serviço Oferecido.</div><div><br></div><div>Galeria de Fotos</div><div>.</div><div>Contato (formulário).</div><div><br></div><div><br></div><div><br></div><div>(Registo do Dominio + € 12.00 Anual)</div><div><br></div>(Alojamento +  € 5.oo mês)<div><br></div><div><br></div><div><br></div><div><br></div><div><div><br></div><div><b style=\"line-height: 1.5;\">Ao clicar no botâo comprar, será transferido para a Plataforma do Paypal (site seguro), apos a compra e a comfirmação de pagamento, entrarei em contacto para o envio de todos os documentos necessários para \bo seu site: Fotos, videos, redes sociais, textos, etc.</b><br></div><div><br></div></div>",
+          "button3": " <a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=289&amp;item_name=Constru%C3%A7%C3%A3o+de+site++Plano+Premium&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">comprar</a>",
+          "label4": "HOT!",
+          "title4": "ULTIMATE",
+          "subtitle4": "Manutenção e updates do site incluidos.",
+          "currency4": "€",
+          "price4": "35",
+          "period4": "/mo.",
+          "description4": "JMS Web Consulting oferece este plano <br>por um preço imbativel &nbsp;",
+          "list4": "<p>&nbsp;<b>Inclui também a criação de  loja online com carro de compras, link e conta com pagamento por Paypal  e galeria de produtos com fotos (até 35 produtos)</b></p><ul class=\"list-group list-group-flush\"></ul><div><br></div><div><span style=\"line-height: 1.5;\">Página Inicial com letreiro rotativo, banner ou video.</span><br></div><div><br></div><div><span style=\"line-height: 1.5;\">Contas de redes sociais &nbsp;integradas</span><br></div><div><br></div><div><span style=\"line-height: 1.5;\">Página Sobre a Empresa.</span><br></div><div><br></div><div>Página Sobre o Serviço Oferecido.</div><div><br></div><div>Galeria de Fotos</div><div>.</div><div>Contato (formulário).</div><div><br></div>Alojamento incluido.<p></p><p></p><div>Registo do Dominio.<br><div><br></div><div><br></div><div><b>Ao clicar no botâo comprar, será transferido para a Plataforma do Paypal (site seguro), apos a compra e a comfirmação de pagamento, entrarei em contacto para o envio de todos os documentos necessários para \bo seu site: Fotos, videos, redes sociais, textos, etc.</b></div><div><br></div><div><br></div></div><p></p>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=200&amp;item_name=6+meses+pagamento+Plano+Ultimate&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">comprar</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_styles": {
+            "UL": {
+              "color": "#faaf40"
+            }
+          },
+          "_anchor": "contacts4-s",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#7e9b9f",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\" class=\"text-black\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
+          "text2": "",
+          "form": {
+            "title": "MESSAGE",
+            "action": "jmsantos1863@gmail.com",
+            "alerts": {
+              "success": "Obrigado por nos contactar"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
+        }
+      ]
+    },
+    "Trabalhos.html": {
+      "settings": {
+        "title": "Exemplos de Webdesigns",
+        "meta_descr": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#1b044f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#260571!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2b0680"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".btn": {
+              "font-size": "14px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-y",
+          "_params": {
+            "bgColor": "#2b0680",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Acercadenos.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#contacts4-s\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Trabalhos.html\">Trabalhos</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"english.html\">English</a></li>"
+        },
+        {
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_params": {
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "slides": [
+              {
+                "src": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
+                "active": true,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1024x576.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/mbr-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-1024x576.jpg",
+                "title": "title 2",
+                "text": "text 2",
+                "tooltip": "@PROJECT_PATH@/assets/images/mbr-1-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/mbr-2000x1675.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-1024x576.jpg",
+                "title": "title 3",
+                "text": "text 3",
+                "tooltip": "@PROJECT_PATH@/assets/images/mbr-2-85x48.png"
+              },
+              {
+                "src": "@PROJECT_PATH@/assets/images/mbr-2000x1125.jpg",
+                "active": false,
+                "link": false,
+                "linkUrl": "http://google.com",
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-1024x576.jpg",
+                "title": "title 1",
+                "text": "text 1",
+                "tooltip": "@PROJECT_PATH@/assets/images/mbr-3-85x48.png"
+              }
+            ],
+            "theme": "crystal",
+            "bgColor": "#7e9b9f",
+            "animType": "squares",
+            "autoplay": true,
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "fullScreen": true,
+            "showBullets": false,
+            "timeout": 2,
+            "duration": 2,
+            "height": "576",
+            "width": "1024",
+            "responsive": "1",
+            "showCaptions": false,
+            "captionsEffect": "slide",
+            "hideControls": false
+          },
+          "_anchor": "wowslider-13",
+          "articleLayout": false
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "B": {
+              "color": "#2b0680"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-14",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "5",
+            "bgColor": "#7e9b9f",
+            "showMeta": true
+          },
+          "title": "Faça os seu sites mais atraentes com Galerias de fotos",
+          "meta": ""
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-z",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1833.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#c1c1c1"
+          },
+          "text": "<p><a href=\"copyright.html\" class=\"text-primary\">copyright (2017) - jmsweb consulting</a></p>"
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#2b0680",
+              "font-size": "36px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-16",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-5-2000x1333.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "CONHEÇA-NOS MELHOR<br><br>",
+          "text": "Dois Pequenos exemplos:",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://visitribatejo.eu\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Website sobre o Ribatejo</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"http://tomarflowers.ga/Loja.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Uma Loja online</a> "
+        },
+        {
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extTestimonials3",
+          "_styles": {
+            ".mbr-section-subtitle B": {
+              "color": "#2b0680",
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "slides": [
+              {
+                "active": false,
+                "text": "<p>“Sou sincero, não tenho grandes conhecimentos de Internet, mas sei que um site era importante para o meu negócio. &nbsp;O processo foi simples para mim, o preço foi bastante razoável pois &nbsp;o Jorge tratou de tudo ”</p>",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/mbr-159x160.jpg",
+                    "class": "img-circle",
+                    "link": "index.html",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Jacinto Oliveira",
+                "authorBio": "cliente"
+              },
+              {
+                "active": false,
+                "text": "<p>“Sendo a primeira vez que publiquei um Website, nunca fazia ideia de toda a complexidade que esse trabalho envolve para o resultado ser perfeito, desde ao alojamento do site, registro, funcionar bem em telemóveis, etc.\"</p>",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face2.jpg",
+                    "class": "img-circle",
+                    "link": "index.html",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Sandra Ferreira",
+                "authorBio": "cliente"
+              },
+              {
+                "active": false,
+                "text": "<p>“Tenho um pequeno negócio, e como o tempo é sempre pouco foi muito bom ter trabalhado com o Jorge pois ele tratou de tudo, desde o design, email, carrinho de compras, Paypal account,etc.</p><p>excelente trabalho.”</p>",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/mbr-160x106.jpg",
+                    "class": "img-circle",
+                    "link": "index.html",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Isabel Lopes",
+                "authorBio": "cliente"
+              },
+              {
+                "active": true,
+                "text": "<p>\"Foi excelente o trabalho feito por esta empresa. &nbsp;E o apoio dado para que o nosso website esteja sempre update é uma mais valia.\"</p>",
+                "media": {
+                  "image": {
+                    "src": "@PROJECT_PATH@/assets/images/face4.jpg",
+                    "class": "img-circle",
+                    "link": "index.html",
+                    "height": 160,
+                    "width": 160,
+                    "active": true,
+                    "alt": "",
+                    "title": "",
+                    "linkInNewWindow": false
+                  }
+                },
+                "authorName": "Fernando Marques",
+                "authorBio": "cliente"
+              }
+            ],
+            "showImages": true,
+            "showName": true,
+            "showBio": true,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/flight-mountains-sky-flying.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#475577",
+            "showSubtitle": true,
+            "showBullets": true,
+            "visibleSlides": "2"
+          },
+          "_anchor": "extTestimonials3-12",
+          "title": "Alguns comentários de clientes",
+          "subtitle": "<b>A melhor publicidade são os nossos clientes</b>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-1d",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333-1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#2969b0"
+          },
+          "text": "FOLLOW US",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/JMS-Web-Consulting-211909042608929/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         "
+        }
+      ]
+    },
+    "english.html": {
       "settings": {
         "title": "jmswebconsulting",
-        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">"
+        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">\n"
       },
       "components": [
         {
@@ -631,6 +1385,11 @@
             "Theme"
           ],
           "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#efefef"
+            }
+          },
           "_anchor": "header1-e",
           "_params": {
             "parallax": true,
@@ -649,11 +1408,11 @@
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": true
           },
           "title": "JMS Web Consulting",
-          "text": "The success of every website now depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search engines then you are ahead among your competitors in terms of online sales",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning-outline btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
+          "text": "The success of every website now depends on search engine optimisation and digital marketing strategy. If you are on first page of all major search engines then you are ahead among your competitors in terms of online sales<br><br><b>See A couple Sample &nbsp;websites:</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"https://visitribatejo.eu\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">www.visitribatejo.eu</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"http://tomarflowers.ga\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">www.tomarflowers.ga</a>"
         },
         {
           "_tags": [
@@ -788,10 +1547,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -803,16 +1562,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#1b044f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#260571!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#2b0680"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -832,7 +1591,7 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".btn": {
               "font-size": "14px"
@@ -841,12 +1600,12 @@
           "_name": "menu",
           "_anchor": "menu-c",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#2b0680",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": true,
             "showBrand": true,
@@ -873,8 +1632,8 @@
               "newWindow": false
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Acercadenos.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#contacts4-s\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Trabalhos.html\">Trabalhos</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"english.html\">English</a></li>"
         },
         {
           "_name": "footer1",
@@ -887,16 +1646,16 @@
           "_params": {
             "paddingTop": "4",
             "paddingBottom": "4",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1833.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayOpacity": "0.4",
+            "overlayColor": "#c1c1c1"
           },
-          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
+          "text": "<p><a href=\"copyright.html\" class=\"text-primary\">copyright (2017) - jmsweb consulting</a></p>"
         },
         {
           "_tags": [
@@ -1027,13 +1786,22 @@
             },
             ".mbr-section__container .mbr-section-subtitle": {
               "color": "#a0a0a0"
+            },
+            "P": {
+              "font-size": "16px"
+            },
+            "DIV": {
+              "font-size": "16px",
+              "color": "#efefef",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_tags": [
             "Theme"
           ],
           "_name": "pricing-table1",
-          "_anchor": "pricing-table1-i",
+          "_anchor": "pricing-table1-19",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -1052,49 +1820,49 @@
             "showTitle": true,
             "showSubtitle": true,
             "firstType": "",
-            "showButtons": false,
-            "secondType": "hidden",
-            "thirdType": "hidden",
-            "fourthType": "hidden"
+            "showButtons": true,
+            "secondType": "",
+            "thirdType": "",
+            "fourthType": "bg-primary"
           },
           "title": "",
           "subtitle": "",
           "label1": "HOT!",
-          "title1": "simple Site",
-          "subtitle1": "from",
+          "title1": "Simple website<div><br></div>",
+          "subtitle1": "a partir de",
           "currency1": "€",
           "price1": "25",
-          "period1": "/mo.<br>(2 year contract 30% off)<br>",
-          "description1": "JMS Web Consulting ofers this incridible price to all new customers.",
-          "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Front Page with Logo and navigation</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Up to 5 pages</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Photo Gallery</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contact Form.<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Hosting included</span><br><span style=\"font-size: 14px; line-height: 50px;\">Domain Registration</span></ul></div><p></p>",
-          "button1": "<a data-app-btn=\"true\" href=\"page2.html#contacts4-h\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contact us</a>",
+          "period1": "/month<br><br>(2 year contract 30% off)<br><br><br>",
+          "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
+          "list1": "<div><span style=\"line-height: 1.5;\"><br></span></div><div><span style=\"line-height: 1.5;\"><b><i>Maintenance and site updates included.</i></b></span></div><div><span style=\"line-height: 1.5;\"><br></span>Home page with highlighted rotary marquee.</div><div><br></div><div>About the Company Page.</div><div><br></div><div><br></div><div>About the Offered Service page.</div><div><br></div><div>Photo gallery.</div><div><br></div><div>Contact (form).</div><div><br></div><div>Hosting &nbsp;included.&nbsp;</div><div><br></div><div>Domain Registration included</div><div><br></div><div><br></div><b>When I  receive the confirmation of PayPal payment, I will  contact you for you to send me all the info: sending all documentos, texts, videos and photos for the  construction of your website!&nbsp;</b><div><br></div><div><br></div>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=210&amp;item_name=Website+plus+Hosting+and+Registration+(1+Year+payment)&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
           "label2": "HOT!",
-          "title2": "BUSINESS",
-          "subtitle2": "Description",
-          "currency2": "$",
-          "price2": "0",
-          "period2": "/mo.",
-          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">users</li><br></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\"></a>",
+          "title2": "Ste construction<br><br>",
+          "subtitle2": "(Alojamento extra)",
+          "currency2": "€",
+          "price2": "189",
+          "period2": ".00<br><br><br><br>",
+          "description2": "JMS Web Consulting oferece este plano <br>por um preço imbativel &nbsp;<br><br><br><br>",
+          "list2": "<div><ul class=\"list-group list-group-flush\"><br></ul></div>Home page with highlighted rotary marquee.<div><br></div><div><br></div><div>About the Company Page.</div><div><br></div><div>About the Offered Service page.</div><div><br></div><div>Photo gallery</div><div>.</div><div>Contact (form).</div><div><br></div><div>(Hosting + € 5.oo month)</div><div><br></div><div>(Domain Registration + € 12.00 per year)</div><div><br></div><div><br></div><div><br></div><b>When I  receive the confirmation of PayPal payment, I will  contact you for you to send me all the info: sending all documentos, texts, videos and photos for the  construction of your website!&nbsp;</b><div><br><div><ul class=\"list-group list-group-flush\"><br></ul></div><div><ul class=\"list-group list-group-flush\"><br></ul></div><div><ul class=\"list-group list-group-flush\"><br></ul></div></div>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=189&amp;item_name=Website+Creation&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
           "label3": "HOT!",
           "title3": "PREMIUM",
-          "subtitle3": "Description",
-          "currency3": "$",
-          "price3": "0",
-          "period3": "/mo.",
-          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
+          "subtitle3": "(Alojamento extra)",
+          "currency3": "€",
+          "price3": "289",
+          "period3": ".00",
+          "description3": "JMS Web Consulting oferece este plano <br>por um preço imbativel &nbsp;",
+          "list3": "It also includes the creation of an online store with a shopping cart, a link, a Paypal account and a product gallery with photos (up to 25 products).<p></p><p></p><div><br></div><div><br></div><div><br></div><div>Home page with highlighted rotary marquee.</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div>About the Company Page.</div><div><br></div><div>About the Offered Service page.</div><div><br></div><div>Photo gallery</div><div>.</div><div>Contact (form).</div><div><br></div><div>(Hosting + € 5.oo month)</div><div><br></div><div>(Domain Registration + € 12.00 per year)</div><div><br></div><b>When I  receive the confirmation of PayPal payment, I will  contact you for you to send me all the info: sending all documentos, texts, videos and photos for the  construction of your website!&nbsp;</b><div><b><br></b></div><div><br></div>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=289&amp;item_name=Web+site+and+online+store+creation&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>",
           "label4": "HOT!",
           "title4": "ULTIMATE",
-          "subtitle4": "Description",
-          "currency4": "$",
-          "price4": "0",
+          "subtitle4": "Maintenance and site updates included.",
+          "currency4": "€",
+          "price4": "35",
           "period4": "/mo.",
-          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
+          "description4": "JMS Web Consulting offers this package for an incredible price",
+          "list4": "Also includes the creation of online store with shopping cart, link and account with payment by Paypal and gallery of products with photos (up to 35 products)<div><br></div><div><br></div><div><br></div><div>Home Page &nbsp;with rotating sign, banner or video.</div><div><br></div><div><br></div><div><span style=\"line-height: 1.5;\">Integrated social network accounts</span><br></div><div><br></div><div><br></div><div><span style=\"line-height: 1.5;\">About the Company Page.</span><br></div><div><br></div><div>About the Offered Service page.</div><div><br></div><div>Photo gallery</div><div>.</div><div>Contact (form).</div><div><br></div>Hosting  included.&nbsp;<div><br></div><div>Domain Registration included</div><div><br><div><br></div><div><br></div><div><br></div><b>When I  receive the confirmation of PayPal payment, I will  contact you for you to send me all the info: sending all documentos, texts, videos and photos for the  construction of your website!&nbsp;</b><div><b>&nbsp;</b><div><br></div></div></div>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=200&amp;item_name=Website+and+online+store+creation+plus+hosting+and+domain+registration+(6month+payment)&amp;currency_code=EUR\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">BUY NOW</a>"
         },
         {
           "_tags": [
@@ -1113,13 +1881,13 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#7e9b9f",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C"
           },
-          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
+          "text1": "<p><strong>Address</strong><br>Tomar - Portugal<br><br>\n<strong>Contacts</strong><br>\nEmail: jorge@jmswebconsulting.eu<br><br>Site created by jms web consulting<span style=\"font-size: 0.875rem; line-height: 1.5;\">:</span></p><p><br><a href=\"https://www.jmswebconsulting.eu\" class=\"text-black\">SSL secured site www.jmswebconsulting.eu</a><br></p>",
           "text2": "",
           "form": {
             "title": "MESSAGE",
@@ -1149,14 +1917,14 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>"
         }
       ]
     },
-    "Acercadenos.html": {
+    "copyright.html": {
       "settings": {
-        "title": "Nossa Missao",
-        "meta_descr": ""
+        "title": "jmswebconsulting",
+        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">"
       },
       "components": [
         {
@@ -1168,10 +1936,10 @@
               "color": "#ffffff"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff"
+              "color": "#000000"
             },
             ".link": {
               "font-size": "0.75rem"
@@ -1183,16 +1951,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
+              "background": "#1b044f"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
+              "background": "#260571!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
+              "background": "#2b0680"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#000000",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1212,19 +1980,31 @@
               "color": "#ffffff"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#000000"
             },
             ".btn": {
               "font-size": "14px"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
           "_name": "menu",
-          "_anchor": "menu-6",
+          "_anchor": "menu-0",
           "_params": {
-            "bgColor": "#000000",
+            "bgColor": "#2b0680",
             "fontSize": 0.75,
             "fontName": {},
-            "fontColor": "#ffffff",
+            "fontColor": "#000000",
             "fontHoverColor": "@primaryColor",
             "transparent": true,
             "sticky": true,
@@ -1249,302 +2029,8 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "footer1-7",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<a href=\"page3.html\">Copyright (c) 2017 jms web consulting</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "testimonial": [
-            {
-              "text": "Ao fornecer resposta a questões no seu Site de Internet, vendas e pedidos de informação, podem ser processados de forma automática e imediata, quer tenha alguém no escritório ou não. Formulários online podem ser utilizados para permitir aos seus clientes o pedido de orçamentos ou informações adicionais. Poupe nos custos, permitindo que possam fazer o download de propostas e outros documentos importantes.<p><br></p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x120.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": false
-                }
-              },
-              "authorName": "",
-              "authorBio": ""
-            },
-            {
-              "text": "Para um pequeno negócio, um Site de Internet bem construído é uma excelente maneira de induzir confiança e aparentar ser maior do que na realidade é. Atualmente, os seus clientes presumem que já tenha um Site na Internet. Atualmente, os seus concorrentes mais diretos provavelmente já têm um Site na Internet. Se assim for, acompanhe a tendência sem se deixar afastar e arranje maneiras de o seu Site ser melhor, apresentando o seu diferencial.",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/sam-1-160x90.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": false
-                }
-              },
-              "authorName": "Jorge S.",
-              "authorBio": "Designer-Developer"
-            },
-            {
-              "text": "<p>Ao contrário do seu escritório ou loja, que tem um horário de funcionamento, o seu Site está acessível 24 horas por dia, 365 dias por ano. Os seus clientes podem preferir informarem-se sobre o seu negócio, produtos ou serviços fora do horário de expediente ou durante os fins de semana, por isso, ter um Site na Internet cria mais oportunidades de negócio</p><p><br></p><p><br></p>",
-              "media": {
-                "image": {
-                  "src": "@PROJECT_PATH@/assets/images/mbr-160x99.jpg",
-                  "class": "img-circle",
-                  "height": 160,
-                  "width": 160,
-                  "active": true,
-                  "link": "",
-                  "alt": "",
-                  "title": "",
-                  "linkInNewWindow": false
-                }
-              },
-              "authorName": "",
-              "authorBio": ""
-            }
-          ],
-          "_anchor": "testimonials1-8",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": 3,
-            "showImages": true,
-            "showName": true,
-            "showBio": true,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.5",
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true
-          },
-          "title": "O que nos torna diferentes",
-          "subtitle": "A capacidade de nos adaptar-mos às necessidades dos nossos clientes"
-        },
-        {
-          "_styles": {
-            ".mbr-section__container .mbr-section-title": {
-              "color": "#fff"
-            },
-            ".mbr-section__container .mbr-section-subtitle": {
-              "color": "#a0a0a0"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "pricing-table1",
-          "_anchor": "pricing-table1-b",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#303030",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubtitle": true,
-            "firstType": "",
-            "showButtons": true,
-            "secondType": "hidden",
-            "thirdType": "hidden",
-            "fourthType": "hidden"
-          },
-          "title": "",
-          "subtitle": "",
-          "label1": "HOT!",
-          "title1": "Site simples",
-          "subtitle1": "a partir de",
-          "currency1": "€",
-          "price1": "25",
-          "period1": "/mês<br>(contracto de 2 Anos 30% off)<br>",
-          "description1": "JMS Web Consulting oferece este plano&nbsp;<br>por um preço imbativel &nbsp;",
-          "list1": "<p><span style=\"font-size: 14px; line-height: 50px;\">Página Inicial com letreiro rotativo em destaque.</span></p><p><span style=\"font-size: 14px; line-height: 50px;\"><br></span><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre a Empresa.</span></p><div><span style=\"font-size: 14px; line-height: 50px;\">Página Sobre o Serviço Oferecido.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Galeria de Fotos.</span></div><div><span style=\"font-size: 14px; line-height: 50px;\">Contato (formulário).<br></span><ul class=\"list-group list-group-flush\"><span style=\"font-size: 14px; line-height: 50px;\">Alojamento incluido.</span><br><span style=\"font-size: 14px; line-height: 50px;\">Registo do Dominio.</span></ul></div><p></p>",
-          "button1": "<a data-app-btn=\"true\" href=\"index.html\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\">contactar</a>",
-          "label2": "HOT!",
-          "title2": "BUSINESS",
-          "subtitle2": "Description",
-          "currency2": "$",
-          "price2": "0",
-          "period2": "/mo.",
-          "description2": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list2": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">users</li><br></ul>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\" data-toolbar=\"-mbrBtnMove\"></a>",
-          "label3": "HOT!",
-          "title3": "PREMIUM",
-          "subtitle3": "Description",
-          "currency3": "$",
-          "price3": "0",
-          "period3": "/mo.",
-          "description3": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list3": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>",
-          "label4": "HOT!",
-          "title4": "ULTIMATE",
-          "subtitle4": "Description",
-          "currency4": "$",
-          "price4": "0",
-          "period4": "/mo.",
-          "description4": "Mobirise is perfect for non-techies who are not familiar with web development.",
-          "list4": "<ul class=\"list-group list-group-flush\"><li class=\"list-group-item\">32 GB storage</li><li class=\"list-group-item\">Unlimited users</li><li class=\"list-group-item\">15 GB bandwidth</li></ul>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-white btn-white-outline\">DEMO</a>"
-        }
-      ]
-    },
-    "jmswebconsulting.html": {
-      "settings": {
-        "title": "jmswebconsulting",
-        "meta_descr": "<meta name=\"description\" content=\"cheap web site design\">\n  <meta name=\"keywords\" content=\"web design, website creation, website barato\">"
-      },
-      "components": [
-        {
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".btn": {
-              "font-size": "14px"
-            },
-            ".link:hover, .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
-              "background": "@primaryColor"
-            },
-            ".dropdown-item:hover, .dropdown-item:focus": {
-              "color": "#ffffff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "bgColor": "#000000",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/untitled.svg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"Acerca  de.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"index.html#form1-4\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info-outline btn-info\" href=\"page2.html\">English</a></li>"
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">JMS Web Consulting</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\"><br></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html\">Página Inicial</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Acercadenos.html\">Acerca de Nós</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"index.html#contacts4-s\">Contacto</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"Trabalhos.html\">Trabalhos</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"english.html\">English</a></li>"
         },
         {
           "_inherit": "header1",
